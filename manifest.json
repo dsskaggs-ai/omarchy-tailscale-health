@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dsskaggs.tailscale-health",
+  "name": "Tailscale health",
+  "version": "1.0.0",
+  "author": "dsskaggs",
+  "license": "MIT",
+  "description": "A visible Tailscale connectivity indicator for the Omarchy bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "TailscaleHealth.qml" },
+  "barWidget": {
+    "displayName": "Tailscale health",
+    "description": "Green when the local Tailscale tailnet is running; red when it is unavailable.",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
