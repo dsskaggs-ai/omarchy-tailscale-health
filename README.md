@@ -8,6 +8,8 @@ A minimal, always-visible Tailscale connectivity indicator for the [Omarchy](htt
 
 Polls `tailscale status --json` every 10 seconds. Click the dot to refresh immediately. Hover for a plain-English status line.
 
+![Omarchy bar screenshot](docs/screenshot.png)
+
 ## Install
 
 ```bash
